@@ -1,4 +1,78 @@
+* {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  margin: 0;
+}
+
+header, footer {
+  background-color: #1F2937;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 100px;
+}
+
+.links {
+  gap: 20px;
+  display: flex;
+}
+
+.hero-content {
+  /* Why won't justify-content work on this div?
+  Answer: it does, but in a narrow window you can't see it. */
+  display: flex;
+  gap: 200px;
+/*   padding: 80px 0; */
+  margin: 0 100px;
+  justify-content: space-between;
+}
+
+.hero-content > img {
+  align-self: center;
+}
+
+.logo {
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  color: #F9FAF8;
+}
+
+.hero-content > .text,
+.links * {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.hero-content button {
+  background-color: #3882F6;
+  border: none;
+  padding: 8px 30px;
+  border-radius: 8px;
+  color: inherit;
+  font-weight: bold;
+  font-size: large;
+}
+
 img {
-  height: 150px;
+  max-height: 150px;
   width: auto;
 }
