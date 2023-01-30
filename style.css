@@ -115,3 +115,24 @@ img {
   max-height: 150px;
   width: auto;
 }
+
+.quote {
+  display: flex;
+  padding: 50px 250px;
+  flex-direction: column;
+  background-color: #E5E7EB;
+}
+
+.quote h3 {
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  color: #1F2937;
+}
+
+.quote p {
+  font-weight: 600;
+  text-align: right;
+  margin-top: -25px;
+  align-self: flex-end;
+}
