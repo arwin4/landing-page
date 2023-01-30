@@ -1,0 +1,9 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+header, footer {
+    background-color: #1F2937;
+  }
+  
